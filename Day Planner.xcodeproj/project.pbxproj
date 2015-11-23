@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB8568931C00E831008F7263 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8568921C00E831008F7263 /* EditTaskViewController.swift */; };
 		CBB57C571BF8C53700CF7680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB57C561BF8C53700CF7680 /* AppDelegate.swift */; };
 		CBB57C591BF8C53700CF7680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB57C581BF8C53700CF7680 /* ViewController.swift */; };
-		CBB57C5C1BF8C53700CF7680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB57C5A1BF8C53700CF7680 /* Main.storyboard */; };
 		CBB57C5F1BF8C53700CF7680 /* Day_Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBB57C5D1BF8C53700CF7680 /* Day_Planner.xcdatamodeld */; };
 		CBB57C611BF8C53700CF7680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB57C601BF8C53700CF7680 /* Assets.xcassets */; };
-		CBB57C641BF8C53700CF7680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB57C621BF8C53700CF7680 /* LaunchScreen.storyboard */; };
 		CBB57C6F1BF8C53800CF7680 /* Day_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB57C6E1BF8C53800CF7680 /* Day_PlannerTests.swift */; };
 		CBB57C7A1BF8C53800CF7680 /* Day_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB57C791BF8C53800CF7680 /* Day_PlannerUITests.swift */; };
+		CBB57C881BF8C64400CF7680 /* day_planner.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB57C871BF8C64400CF7680 /* day_planner.png */; };
+		CBE8FD0C1C026A18002E2409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE8FD0B1C026A18002E2409 /* Main.storyboard */; };
+		CBE8FD0E1C026A41002E2409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE8FD0D1C026A41002E2409 /* LaunchScreen.storyboard */; };
+		CBEC45C81BF9446900375623 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC45C71BF9446900375623 /* TasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB8568921C00E831008F7263 /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 		CBB57C531BF8C53700CF7680 /* Day Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB57C561BF8C53700CF7680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBB57C581BF8C53700CF7680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBB57C5B1BF8C53700CF7680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB57C5E1BF8C53700CF7680 /* Day_Planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day_Planner.xcdatamodel; sourceTree = "<group>"; };
 		CBB57C601BF8C53700CF7680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBB57C631BF8C53700CF7680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB57C651BF8C53700CF7680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB57C6A1BF8C53800CF7680 /* Day PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB57C6E1BF8C53800CF7680 /* Day_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerTests.swift; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		CBB57C751BF8C53800CF7680 /* Day PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB57C791BF8C53800CF7680 /* Day_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_PlannerUITests.swift; sourceTree = "<group>"; };
 		CBB57C7B1BF8C53800CF7680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB57C871BF8C64400CF7680 /* day_planner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day_planner.png; sourceTree = "<group>"; };
+		CBE8FD0B1C026A18002E2409 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CBE8FD0D1C026A41002E2409 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBEC45C71BF9446900375623 /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		CBB57C551BF8C53700CF7680 /* Day Planner */ = {
 			isa = PBXGroup;
 			children = (
+				CBB57C871BF8C64400CF7680 /* day_planner.png */,
 				CBB57C561BF8C53700CF7680 /* AppDelegate.swift */,
 				CBB57C581BF8C53700CF7680 /* ViewController.swift */,
-				CBB57C5A1BF8C53700CF7680 /* Main.storyboard */,
+				CBE8FD0B1C026A18002E2409 /* Main.storyboard */,
+				CBE8FD0D1C026A41002E2409 /* LaunchScreen.storyboard */,
 				CBB57C601BF8C53700CF7680 /* Assets.xcassets */,
-				CBB57C621BF8C53700CF7680 /* LaunchScreen.storyboard */,
 				CBB57C651BF8C53700CF7680 /* Info.plist */,
 				CBB57C5D1BF8C53700CF7680 /* Day_Planner.xcdatamodeld */,
+				CBEC45C71BF9446900375623 /* TasksTableViewController.swift */,
+				CB8568921C00E831008F7263 /* EditTaskViewController.swift */,
 			);
 			path = "Day Planner";
 			sourceTree = "<group>";
@@ -232,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB57C641BF8C53700CF7680 /* LaunchScreen.storyboard in Resources */,
 				CBB57C611BF8C53700CF7680 /* Assets.xcassets in Resources */,
-				CBB57C5C1BF8C53700CF7680 /* Main.storyboard in Resources */,
+				CBE8FD0E1C026A41002E2409 /* LaunchScreen.storyboard in Resources */,
+				CBB57C881BF8C64400CF7680 /* day_planner.png in Resources */,
+				CBE8FD0C1C026A18002E2409 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +271,8 @@
 			files = (
 				CBB57C5F1BF8C53700CF7680 /* Day_Planner.xcdatamodeld in Sources */,
 				CBB57C591BF8C53700CF7680 /* ViewController.swift in Sources */,
+				CB8568931C00E831008F7263 /* EditTaskViewController.swift in Sources */,
+				CBEC45C81BF9446900375623 /* TasksTableViewController.swift in Sources */,
 				CBB57C571BF8C53700CF7680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +307,6 @@
 			targetProxy = CBB57C761BF8C53800CF7680 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CBB57C5A1BF8C53700CF7680 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBB57C5B1BF8C53700CF7680 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CBB57C621BF8C53700CF7680 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBB57C631BF8C53700CF7680 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CBB57C7C1BF8C53800CF7680 /* Debug */ = {
@@ -486,6 +479,7 @@
 				CBB57C801BF8C53800CF7680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB57C811BF8C53800CF7680 /* Build configuration list for PBXNativeTarget "Day PlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +488,7 @@
 				CBB57C831BF8C53800CF7680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB57C841BF8C53800CF7680 /* Build configuration list for PBXNativeTarget "Day PlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +497,7 @@
 				CBB57C861BF8C53800CF7680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
